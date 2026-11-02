@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Source and processed data (do not publish student records)
+data/raw/*
+!data/raw/README.md
+data/processed/*
+!data/processed/README.md
+*.xlsx
+*.xls
+*.csv
+*.pkl
+*.pickle
+
+# Local/editor files
+.DS_Store
+Thumbs.db
+.env
